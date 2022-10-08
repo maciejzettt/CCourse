@@ -6,7 +6,7 @@
 int main()
 {
 	unsigned numberOfStrings = 0;
-	printf("How many strings do you want to enter?: ");
+	printf("How many strings do you want to enter? : ");
 	scanf_s("%u", &numberOfStrings);
 	fflush(stdin);
 	unsigned * list = malloc(numberOfStrings * sizeof(unsigned));
